@@ -20,7 +20,7 @@ set showmatch		" hightlight matching [{()}]
 set incsearch		" search as characters are entered
 set hlsearch		" highlight matches
 " turn off search highlight with \<space>
-nnoremap <esc> :nohlsearch<CR>
+nnoremap <leader><space> :nohlsearch<CR>
 
 set foldenable 		" enable folding
 set foldlevelstart=10	" open most folds by default
